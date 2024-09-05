@@ -1,0 +1,34 @@
+.main{
+    flex: 1;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 15vh;  
+    width: 100%;
+}
+.main .navbar{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px; 
+font-size: 22px;
+color: #585858;
+}
+.main .navbar img{
+    width: 45px;
+}
+.main-container{
+    max-width: 900px;
+    margin: auto;
+}
+.main-container .greet{
+    margin: 50px 0;
+    font-size: 56px;
+    color: #c4c7c5;
+    font-weight: 500;
+    padding: 20px;
+}
+.main-container .greet span{
+    background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
